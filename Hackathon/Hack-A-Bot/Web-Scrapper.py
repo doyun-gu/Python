@@ -59,5 +59,5 @@ while True:
     print("C0X: {}, C0Y: {}, C0Z: {}".format(C0X, C0Y, C0Z))
     print("BX: {}, BY: {}, BZ: {}".format(BX, BY, BZ))
 
-    # This code execute every 0.5 second
+    # This code execute every 0.5 second 
     time.sleep(0.5)
