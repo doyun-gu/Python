@@ -1,6 +1,6 @@
 name = "Kongi"
 animal = "Cat"
-age = 1
+age = 6
 hobby = "not moving"
 
 print("introduce your pet")
