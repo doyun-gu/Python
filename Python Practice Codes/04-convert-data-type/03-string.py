@@ -1,1 +1,1 @@
-print(str(3) + "or" + str(3.5))
+print(str(3) + " or " + str(3.5))
