@@ -46,3 +46,7 @@ print(index)
 # Return ValueError:~ and exit the code since  there's no 'Java' in the given sentence
 index = python.index("Java")
 print(index)
+
+# Return the number of times "n" or "v" characters are in the given character (python)
+print(python.count("n"))
+print(python.count("v"))
