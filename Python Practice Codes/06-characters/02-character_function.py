@@ -47,6 +47,12 @@ print(index)
 index = python.index("Java")
 print(index)
 
+#--------------------------------------------------------------------------------------------------
+# From this line will not be executed since 'python.index' exit the code
+
 # Return the number of times "n" or "v" characters are in the given character (python)
 print(python.count("n"))
 print(python.count("v"))
+
+# Return the length of given Data (Can be used in characters)
+print(len(python))
