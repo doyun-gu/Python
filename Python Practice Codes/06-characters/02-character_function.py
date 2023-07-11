@@ -24,9 +24,11 @@ print(python.replace("Python", "Java"))
 # Return the index number where it found 'n' for the first time
 find = python.find("n")
 print(find)
+
 # Return where it found 'n' after index 6 (find: index 5)
 find = python.find("n", find+1)
 print(find)
+
 # Return '-1' since there's no 'Java'
 find = python.find("Java")
 print(find)
