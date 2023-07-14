@@ -78,3 +78,29 @@ print(company.get(5, "Available"))
 
 print(3 in company)
 print(5 in company)
+
+cabinet = {"A-3": "Doyun", "B-100": "GU"}
+print(cabinet)
+
+cabinet["A-3"] = "Damian"
+
+# If there's no matching 'key', then add a new one
+cabinet["C-20"] = "FarmTech"
+
+print(cabinet)
+
+# Delete the value in the specific key
+del cabinet["A-3"]
+print(cabinet)
+
+# Check keys
+print(cabinet.keys())
+
+# Check values
+print(cabinet.values())
+
+# Check keys with corresponding values
+print(cabinet.items())
+
+cabinet.clear()
+print(cabinet)
