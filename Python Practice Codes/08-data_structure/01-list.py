@@ -102,5 +102,6 @@ print(cabinet.values())
 # Check keys with corresponding values
 print(cabinet.items())
 
+# Clear
 cabinet.clear()
 print(cabinet)
